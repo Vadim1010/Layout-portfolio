@@ -1,0 +1,339 @@
+.colBlue {
+  color: blue; }
+
+body {
+  background: gainsboro; }
+  body > .container {
+    margin-top: 35px;
+    background: white;
+    box-shadow: 15px 25px 0 0 chartreuse; }
+    body > .container > header > .foto {
+      width: 240px;
+      height: 240px;
+      border: 1px solid blue;
+      border-radius: 100%;
+      margin: 40px auto;
+      position: relative; }
+      body > .container > header > .foto > div {
+        width: 220px;
+        height: 220px;
+        border-radius: 100%;
+        background: blue;
+        position: absolute;
+        top: 10px;
+        left: 10px; }
+    body > .container > header > div:nth-child(2) > h3 {
+      text-align: center;
+      margin-bottom: -8px;
+      text-transform: uppercase; }
+    body > .container > header > div:nth-child(2) > h1 {
+      text-align: center;
+      margin-top: -8px;
+      padding-bottom: -5px;
+      text-transform: uppercase; }
+    body > .container > header > div:nth-child(2) > p {
+      text-align: center;
+      margin-top: -25px;
+      text-transform: uppercase;
+      font-weight: 600; }
+    body > .container > header > .profile {
+      margin-top: 30px; }
+      body > .container > header > .profile > div {
+        width: 50px;
+        height: 50px;
+        border: 1px solid blue;
+        border-radius: 100%;
+        position: relative; }
+        body > .container > header > .profile > div > div:nth-child(1) {
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          background: blue;
+          position: absolute;
+          top: 4px;
+          left: 4px; }
+          body > .container > header > .profile > div > div:nth-child(1) > span {
+            font-weight: 900;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            top: 8px;
+            left: 9px; }
+        body > .container > header > .profile > div > h3 {
+          text-transform: uppercase;
+          color: #0000fe;
+          position: absolute;
+          top: -8px;
+          left: 55px; }
+        body > .container > header > .profile > div > div:nth-child(3) {
+          width: 140px;
+          border: 1.5px solid blue;
+          position: absolute;
+          top: 22px;
+          left: 170px; }
+      body > .container > header > .profile > p {
+        margin-top: 15px; }
+        body > .container > header > .profile > p > span {
+          font-weight: 600; }
+    body > .container > header > .contact {
+      margin-top: 30px; }
+      body > .container > header > .contact > div {
+        width: 50px;
+        height: 50px;
+        border: 1px solid blue;
+        border-radius: 100%;
+        position: relative; }
+        body > .container > header > .contact > div > div:nth-child(1) {
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          background: blue;
+          position: absolute;
+          top: 5px;
+          right: 5px; }
+          body > .container > header > .contact > div > div:nth-child(1) > span {
+            font-weight: 900;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            top: 10px;
+            left: 10px; }
+        body > .container > header > .contact > div > h3 {
+          text-transform: uppercase;
+          color: #0000fe;
+          position: absolute;
+          top: -8px;
+          left: 55px; }
+        body > .container > header > .contact > div > div:nth-child(3) {
+          width: 140px;
+          border: 1.5px solid blue;
+          position: absolute;
+          top: 22px;
+          left: 180px; }
+      body > .container > header > .contact > table {
+        margin-top: 20px; }
+        body > .container > header > .contact > table > tbody {
+          border: 0; }
+    body > .container > header > .skills {
+      margin-top: 30px; }
+      body > .container > header > .skills > div:nth-child(1) {
+        width: 50px;
+        height: 50px;
+        border: 1px solid blue;
+        border-radius: 100%;
+        position: relative; }
+        body > .container > header > .skills > div:nth-child(1) > div:nth-child(1) {
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          background: blue;
+          position: absolute;
+          top: 5px;
+          right: 5px; }
+          body > .container > header > .skills > div:nth-child(1) > div:nth-child(1) > span {
+            font-weight: 900;
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            top: 10px;
+            left: 10px; }
+        body > .container > header > .skills > div:nth-child(1) > h3 {
+          text-transform: uppercase;
+          color: #0000fe;
+          position: absolute;
+          top: -8px;
+          left: 55px; }
+        body > .container > header > .skills > div:nth-child(1) > div:nth-child(3) {
+          width: 150px;
+          border: 1.5px solid blue;
+          position: absolute;
+          top: 22px;
+          left: 180px; }
+      body > .container > header > .skills > div:nth-child(2) {
+        margin-top: 20px; }
+        body > .container > header > .skills > div:nth-child(2) > h4 {
+          margin-bottom: 10px;
+          text-align: center; }
+        body > .container > header > .skills > div:nth-child(2) > div {
+          width: 15px;
+          height: 15px;
+          border-radius: 100%;
+          margin: 1px;
+          background: blue;
+          display: inline-block; }
+        body > .container > header > .skills > div:nth-child(2) > .bgGrey {
+          background: gainsboro; }
+        body > .container > header > .skills > div:nth-child(2) > h4 + div {
+          margin-left: 20%; }
+    body > .container > nav {
+      margin-top: 10px; }
+      body > .container > nav > .education {
+        margin-top: 20px; }
+        body > .container > nav > .education > div:nth-child(1) {
+          width: 50px;
+          height: 50px;
+          border: 1px solid blue;
+          border-radius: 100%;
+          position: relative; }
+          body > .container > nav > .education > div:nth-child(1) > div:nth-child(1) {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background: blue;
+            position: absolute;
+            top: 4.5px;
+            right: 4.5px; }
+            body > .container > nav > .education > div:nth-child(1) > div:nth-child(1) > span {
+              font-weight: 900;
+              font-size: 25px;
+              color: white;
+              position: absolute;
+              top: 8px;
+              left: 9px; }
+          body > .container > nav > .education > div:nth-child(1) > h3 {
+            text-transform: uppercase;
+            color: #0000fe;
+            position: absolute;
+            top: -8px;
+            left: 55px; }
+          body > .container > nav > .education > div:nth-child(1) > div:nth-child(3) {
+            width: 250px;
+            border: 1.5px solid blue;
+            position: absolute;
+            top: 22px;
+            left: 210px; }
+        body > .container > nav > .education > blockquote {
+          margin: 0 20px;
+          border: 0;
+          padding: 5px 20px;
+          position: relative; }
+          body > .container > nav > .education > blockquote > div {
+            width: 13px;
+            height: 13px;
+            border-radius: 100%;
+            background: #000;
+            position: absolute;
+            left: 0;
+            top: 20px; }
+          body > .container > nav > .education > blockquote > h5 {
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #0000fe; }
+            body > .container > nav > .education > blockquote > h5 > span {
+              color: black;
+              font-weight: 600;
+              margin-top: 10px; }
+      body > .container > nav > .experience {
+        margin-top: 20px; }
+        body > .container > nav > .experience > div:nth-child(1) {
+          width: 50px;
+          height: 50px;
+          border: 1px solid blue;
+          border-radius: 100%;
+          position: relative; }
+          body > .container > nav > .experience > div:nth-child(1) > div:nth-child(1) {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background: blue;
+            position: absolute;
+            top: 4px;
+            right: 4px; }
+            body > .container > nav > .experience > div:nth-child(1) > div:nth-child(1) > span {
+              font-weight: 900;
+              font-size: 25px;
+              color: white;
+              position: absolute;
+              top: 8px;
+              left: 8px; }
+          body > .container > nav > .experience > div:nth-child(1) > h3 {
+            text-transform: uppercase;
+            color: #0000fe;
+            position: absolute;
+            top: -8px;
+            left: 55px; }
+          body > .container > nav > .experience > div:nth-child(1) > div:nth-child(3) {
+            width: 250px;
+            border: 1.5px solid blue;
+            position: absolute;
+            top: 22px;
+            left: 230px; }
+        body > .container > nav > .experience > blockquote {
+          margin: 0 20px;
+          border: 0;
+          padding: 5px 20px;
+          position: relative; }
+          body > .container > nav > .experience > blockquote > div {
+            width: 13px;
+            height: 13px;
+            border-radius: 100%;
+            background: #000;
+            position: absolute;
+            left: 0;
+            top: 20px; }
+          body > .container > nav > .experience > blockquote > h5 {
+            font-weight: 900;
+            text-transform: uppercase; }
+            body > .container > nav > .experience > blockquote > h5 > span {
+              color: black;
+              font-weight: 600;
+              margin-top: 10px; }
+      body > .container > nav > .software {
+        margin-top: 20px; }
+        body > .container > nav > .software > div:nth-child(1) {
+          width: 50px;
+          height: 50px;
+          border: 1px solid blue;
+          border-radius: 100%;
+          position: relative; }
+          body > .container > nav > .software > div:nth-child(1) > div:nth-child(1) {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            background: blue;
+            position: absolute;
+            top: 4px;
+            right: 4px; }
+            body > .container > nav > .software > div:nth-child(1) > div:nth-child(1) > span {
+              font-weight: 900;
+              font-size: 20px;
+              color: white;
+              position: absolute;
+              top: 10px;
+              left: 10px; }
+          body > .container > nav > .software > div:nth-child(1) > h3 {
+            text-transform: uppercase;
+            color: #0000fe;
+            position: absolute;
+            top: -8px;
+            left: 55px; }
+          body > .container > nav > .software > div:nth-child(1) > div:nth-child(3) {
+            width: 250px;
+            border: 1.5px solid blue;
+            position: absolute;
+            top: 22px;
+            left: 210px; }
+        body > .container > nav > .software > div:nth-child(2) > h5, body > .container > nav > .software > div:nth-child(3) > h5 {
+          text-transform: uppercase;
+          font-weight: 700; }
+  body > footer {
+    margin: 40px 0;
+    color: white; }
+    body > footer > h1 > span {
+      font-size: 50px; }
+
+@media screen and (max-width: 992px) {
+  body > .container > header > .profile > div:nth-child(1) > div:nth-child(3), body > .container > header .contact > div:nth-child(1) > div:nth-child(3), body > .container > header .skills > div:nth-child(1) > div:nth-child(3) {
+    width: 80px; }
+  body > .container > header > .skills > div:nth-child(2) > h4 + div {
+    margin-left: 10%; }
+  body > .container > nav > .education > div:nth-child(1) > div:nth-child(3), body > .container > nav .experience > div:nth-child(1) > div:nth-child(3), body > .container > nav .software > div:nth-child(1) > div:nth-child(3) {
+    width: 100px; } }
+
+@media screen and (max-width: 768px) {
+  body > .container > header > .profile > div:nth-child(1) > div:nth-child(3), body > .container > header .contact > div:nth-child(1) > div:nth-child(3), body > .container > header .skills > div:nth-child(1) > div:nth-child(3) {
+    width: 300px; }
+  body > .container > header > .skills > div:nth-child(2) > h4 + div {
+    margin-left: 30%; }
+  body > .container > nav > .education > div:nth-child(1) > div:nth-child(3), body > .container > nav .experience > div:nth-child(1) > div:nth-child(3), body > .container > nav .software > div:nth-child(1) > div:nth-child(3) {
+    width: 300px; } }
